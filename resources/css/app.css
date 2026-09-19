@@ -1,0 +1,29 @@
+@import '@fontsource/plus-jakarta-sans/400.css';
+@import '@fontsource/plus-jakarta-sans/500.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+    --color-paper: #f9f9f9;
+    --color-surface: #ffffff;
+    --color-hairline: #e5e5e5;
+    --color-ink: #111111;
+    --color-muted: #303537;
+    --color-muted-foreground: #303537;
+    --color-primary: #111111;
+
+    --color-success: #059669;
+    --color-success-dark: #047857;
+    --color-warning: #d97706;
+    --color-warning-dark: #92400e;
+    --color-error: #dc2626;
+    --color-error-dark: #b91c1c;
+    --color-sold: #64748b;
+    --color-sold-dark: #475569;
+}
